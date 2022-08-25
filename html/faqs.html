@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayes.ph</title>
+    <link rel="icon" href="../assets/mayes_logo_clear.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/faqs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ea16764c66.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/faqs.js"></script>
+    <script src="https://kit.fontawesome.com/26f955556c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0../js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112246934816162");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <!-- nav -->
+
+    <header>
+        <a class="header-logo" href="#">
+            <img src="../assets/mayes_logo_clear_white.png" class="header-logo_image" id="logo">
+        </a>
+    
+        <ul class="nav">
+            <li class="nav-link">
+                <a href="../html/home.html#gigatron">HOME</a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/services.html">
+                    OUR SERVICES
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/blogs.html">
+                    BLOGS AND ARTICLES
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/faqs.html">
+                    FAQS
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="#contact">
+                    CONTACT US
+                </a>
+            </li>
+        </ul>
+
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+</header>
+
+<!-- top -->
+
+<section class="top">
+    <div class="color-overlay"></div>
+    <div class="content row">
+        <div class="content-col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <span class="content-title">Frequently Asked Questions </span>
+            <span class="content-desc">everything you need to know about Mayes.ph can be found below.</span>
+        </div>
+    </div>
+</section>
+
+<!-- faq -->
+
+<section class="faq" id="faq">
+    <div class="row faq-row">
+        <div class="faq-title col-12">
+            FAQs :)
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">Is MAYES.PH a registered business entity?</div>
+                <div class="accordion-content">
+                    Yes, MAYES.PH is a 100% Filipino-owned corporation and was SEC registered back in October 2021.
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">Is MAYES.PH an HMO or Insurance company?</div>
+                <div class="accordion-content">
+                    No.  MAYES.PH is a benefits solutions company that is accredited by established HMO and Insurance companies to sell their products / services on their behalf.  MAYES.PH provides options for MSME's to select their preferred HMO and / or Group Life Insurance that will fit their requirement.
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">
+                    Is the HRIS technology being offered by MAYES.PH really free?</div>
+                <div class="accordion-content">
+                    The cloud based HRIS (CHRIS-Pay) is indeed free! The system is bundled with the HMO availed by the client.
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">What is the Payroll Outsourcing solution that MAYES.PH is offering?</div>
+                <div class="accordion-content">
+                    MAYES.PH will process your Payroll at a fraction of the cost that leading payroll outsourcing companies are offering, we'll give you this while you make your employees smile!  We can even give it for free as long as the HMO you'll be availing meets the required MBL (Maximum Benefit Limit).
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">Are you offering other benefits or rewards solution?</div>
+                <div class="accordion-content">
+                    Yes. MAYES.PH can help you develop benefits and rewards program that will fit your budget while achieving the objectives of the program.  Furthermore, we will soon launch a market place for flexible benefits that your employees can avail.
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">What is the employee loan solution that you are offering?</div>
+                <div class="accordion-content">
+                    We recognize the fact that a lot of employees find it difficult to access interest friendly financing companies, where they can avail of loans easily especially during emergencies.  We partnered with loan providers that offer low interest rates and can be accessed immediately. This offering can be availed along with the HMO and Payroll outsourcing as we'll help in the processing and facilitation of the employees' loans.
+                </div>
+            </div>
+        </div>
+        <div class="accordion col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="contentBx">
+                <div class="accordion-label">Can we opt to avail just your HRIS and Payroll Outsourcing solutions?</div>
+                <div class="accordion-content">
+                    This option can be explored. However, the price points will vary based on the number of your employees, and will be higher than the HMO bundled offering. Kindly contact us to discuss this further.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact us -->
+
+<section class="contact" id="contact">
+    <div class="contact-row row">
+        <div class="contact-label col-12 contact-hr">
+            <span class="contact-title">
+                Contact Us!
+            </span>
+
+            <span class="contact-title">
+                <i class="fab fa-facebook"></i>
+                <i class="fas fa-phone"></i>
+            </span>
+        </div>
+
+        <div class="contact-field col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="field-title">
+                
+            </div>
+
+            <div class="field-inputs">
+                <form action="https://formsubmit.co/354a8e248f4cfee6d7113997ecdd82d7" method="POST">
+                    <input type="hidden" name="_subject" value="New Mayes.ph submission">
+                    <input type="hidden" name="_next" value="https://mayes-ph.com/html/home.html">
+                    <input type="text" name="name" class="input" placeholder="Name" required>
+                    <input type="email" name="email" class="input" placeholder="E-mail Address" type="email" required>
+                    <textarea class="textarea" name="message" placeholder="Message" required></textarea>
+                    <button class="button">SEND</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="contact-info col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="info-title">
+                Better yet, see us in person!
+            </div>
+
+            <div class="info-desc">
+                Primeland Building, Madrigal Business Park, Alabang, Muntinlupa City
+            </div>
+
+            <div class="info-title">
+                Shoot us a call!
+            </div>
+
+            <div class="info-desc">
+                Mobile No.: +639178541388 / +639178457840
+            </div>
+
+            <div class="info-title">
+                Operating hours.
+            </div>
+
+            <div class="info-desc">
+                Open Monday to Friday, 9:00 am - 5:00 pm.
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    const accordion = document.getElementsByClassName('contentBx');
+
+    for (i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener('click', function() {
+            this.classList.toggle('active')
+        }) 
+    }
+</script>
+</body>
+</html>

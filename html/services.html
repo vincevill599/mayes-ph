@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayes.ph</title>
+    <link rel="icon" href="../assets/mayes_logo_clear.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ea16764c66.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="https://kit.fontawesome.com/26f955556c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0../js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112246934816162");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <!-- nav -->
+
+    <header>
+        <a class="header-logo" href="#">
+            <img src="../assets/mayes_logo_clear_white.png" class="header-logo_image" id="logo">
+        </a>
+    
+        <ul class="nav">
+            <li class="nav-link">
+                <a href="../html/home.html#gigatron">HOME</a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/services.html">
+                    OUR SERVICES
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/blogs.html">
+                    BLOGS AND ARTICLES
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="../html/faqs.html">
+                    FAQS
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="#contact">
+                    CONTACT US
+                </a>
+            </li>
+        </ul>
+
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+</header>
+
+<!-- top -->
+
+<section class="top">
+    <div class="color-overlay"></div>
+    <div class="content row">
+        <div class="content-col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <span class="content-title">Let's work on making your employees smile</span>
+            <span class="content-desc">let us improve your work environment with our wide variety of services, made specifically for your needs!</span>
+        </div>
+    </div>
+</section>
+
+<!-- services -->
+
+<section class="services">
+    <div class="services-cont">
+        <div id="benefits"></div>
+        <div class="services-row row">
+            <div class="col-12 main-title d-flex">
+                <span class="title">
+                    Our offerings
+                </span>
+            </div>
+    
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <img src="../assets/10.png" class="services-img">
+            </div>
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <span class="services-title">
+                    Affordable Employee benefits and Rewards.
+                </span>
+                <span class="services-desc">
+                    Caring for employees has been a challenging task for most employers due to the rigors and high cost of such initiatives. It is even more difficult for Start-up companies and MSMEs, as their funds and efforts are primarily allocated for their core business activities. MAYES.PH will help you with these challenges through our offerings:
+
+                    <li class="checklist">
+                        <ul class="checklist-item">
+                            ✅ Affordable HMO for small and medium sized companies.
+                        </ul>
+                        <ul class="checklist-item">
+                            ✅ Group Life Insurance.
+                        </ul>
+                        <ul class="checklist-item">
+                            ✅ Low interest and easy access employee loan facility.
+                        </ul>
+                        <ul class="checklist-item">
+                            ✅ Market place for flexible benefits.
+                        </ul>
+                    </li>
+
+                    We'll even extend to you our free cloud-based HRIS software and almost a give-away Managed Payroll (Outsourcing) solution, so that you can really focus on what matters most to you; Your business!
+                </span>
+            </div>
+            <div id="hris"></div>
+        </div>
+
+        <div class="services-row row">
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <span class="services-title">
+                    CHRIS-Pay and Managed Payroll Solution.
+                </span>
+                <span class="services-desc">
+                    Our value-added service to your company is free access to CHRIS-Pay, a cloud-based HR web application that has the following features:
+                    
+                    <li class="checklist">
+                        <ul class="checklist-item">
+                            👌 Work Schedule Management.
+                        </ul>
+                        <ul class="checklist-item">
+                            👌 Time and Attendance Management.
+                        </ul>
+                        <ul class="checklist-item">
+                            👌 Employee Data Management.
+                        </ul>
+                        <ul class="checklist-item">
+                            👌 Leaves Management.
+                        </ul>
+                        <ul class="checklist-item">
+                            👌 On-line Approval Workflow.
+                        </ul>
+                        <ul class="checklist-item">
+                            👌 HR Reports and Analytics.
+                        </ul>
+                    </li>
+
+                    To make it easier for you to manage transactional HR work, we'll offer you our Managed Payroll Solution. You don't need to hire a professional service to handle payroll,
+                    we'll do this for you at a fraction of the costof a full-time hire!
+                </span>
+
+                <a href="#contact">
+                    <button class="services-button">
+                        Contact us for a Demo
+                    </button>
+                </a>
+            </div>
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <img src="../assets/1.png" class="services-img">
+            </div>
+            <div id="payroll"></div>
+        </div>
+    
+        <!-- <div class="services-row row">
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <img src="../assets/second-art.png" class="services-img">
+            </div>
+            <div class="services-col col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <span class="services-title">
+                    Payroll Outsourcing.
+                </span>
+                <span class="services-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aspernatur ipsam nemo et, doloremque explicabo error dolores nisi unde sunt optio enim repellendus? Suscipit odit minus, reiciendis eos assumenda nemo.
+                    Facilis quasi perferendis, incidunt voluptates minus expedita possimus asperiores modi hic temporibus quisquam aspernatur repellendus ad non quis natus ut quo veniam explicabo nulla, at assumenda provident recusandae. Libero, doloribus.
+                    
+                    <li class="checklist">
+                        <ul class="checklist-item">
+                            💯 Sample checklist
+                        </ul>
+                        <ul class="checklist-item">
+                            💯 Sample checklist
+                        </ul>
+                        <ul class="checklist-item">
+                            💯 Sample checklist
+                        </ul>
+                        <ul class="checklist-item">
+                            💯 Sample checklist
+                        </ul>
+                        <ul class="checklist-item">
+                            💯 Sample checklist
+                        </ul>
+                    </li>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nulla perspiciatis id, odit libero aut. Hic pariatur ratione, error dicta soluta deserunt, id debitis esse cumque molestias magnam repellendus culpa.
+                </span>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+    <!-- contact us -->
+
+    <section class="contact" id="contact">
+        <div class="contact-row row">
+            <div class="contact-label col-12 contact-hr">
+                <span class="contact-title">
+                    Contact Us!
+                </span>
+
+                <span class="contact-title">
+                    <a href="https://www.facebook.com/MayesPh">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <i class="fas fa-phone"></i>
+                </span>
+            </div>
+
+            <div class="contact-field col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="field-title">
+                    
+                </div>
+
+                <div class="field-inputs">
+                    <form action="https://formsubmit.co/354a8e248f4cfee6d7113997ecdd82d7" method="POST">
+                        <input type="hidden" name="_subject" value="New Mayes.ph submission">
+                        <input type="hidden" name="_next" value="https://mayes-ph.com/html/home.html">
+                        <input type="text" name="name" class="input" placeholder="Name" required>
+                        <input type="email" name="email" class="input" placeholder="E-mail Address" type="email" required>
+                        <textarea class="textarea" name="message" placeholder="Message" required></textarea>
+                        <button class="button">SEND</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-info col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="info-title">
+                    Better yet, see us in person!
+                </div>
+
+                <div class="info-desc">
+                    Primeland Building, Madrigal Business Park, Alabang, Muntinlupa City
+                </div>
+
+                <div class="info-title">
+                    Shoot us a call!
+                </div>
+
+                <div class="info-desc">
+                   Mobile No.: +639178541388 / +639178457840
+                </div>
+
+                <div class="info-title">
+                    Operating hours.
+                </div>
+
+                <div class="info-desc">
+                    Open Monday to Friday, 9:00 am - 5:00 pm.
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
