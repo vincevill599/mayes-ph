@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayes.ph</title>
+    <link rel="icon" href="../assets/mayes_logo_clear_white.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ea16764c66.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="https://kit.fontawesome.com/26f955556c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0../js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112246934816162");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <!-- nav -->
+
+    <header>
+            <a class="header-logo" href="#">
+                <img src="../assets/mayes_logo_clear_white.png" class="header-logo_image" id="logo">
+            </a>
+        
+            <ul class="nav">
+                <li class="nav-link">
+                    <a href="../html/home.html#gigatron">HOME</a>
+                </li>
+                <li class="nav-link">
+                    <a href="../html/services.html">
+                        OUR SERVICES
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="../html/blogs.html">
+                        BLOGS AND ARTICLES
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="../html/faqs.html">
+                        FAQS
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#contact">
+                        CONTACT US
+                    </a>
+                </li>
+            </ul>
+    
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    </header>
+
+    <!-- top -->
+
+    <section class="top">
+        <div class="color-overlay"></div>
+        <!-- <div class="art-cont">
+            <img src="../assets/home-art.png" class="art-img">
+        </div> -->
+        <div class="content row">
+            <div class="content-col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <span class="content-title">Make all of your employees smile!</span>
+                <span class="content-desc">with the help of our affordable benefits solutions powered by our HRIS Technology.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about">
+        <div class="row about-row">
+            <div class="about-art col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <img src="../assets/second-art.png" class="about-img">
+            </div>
+
+            <div class="about-desc col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                <span class="about-title">Who we are and What we do!</span>
+                <span class="about-content">We are a benefits solutions company that will aide you in providing the best yet affordable healthcare / medical plan, group life insurace, employee loan, and rewards program for your employees. We'll also provide you our proprietary HRIS / Payroll System (CHRIS-Pay) and Managed Payroll Solution as our value-added service on top of the benefits programs.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="mid">
+        <div class="mid-row row">
+            <div class="mid-title col-12">
+                Our Services
+            </div>
+
+            <div class="row color-row">
+                <div class="card c1 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            Affordable Benefits
+                        </h2>
+                        <p class="card-body">
+                            Retain and motivate your employees without burning your pocket.
+                        </p>
+                        <a href="../html/services.html#benefits" class="card-button">Learn More</a>
+                    </div>
+                </div>
+    
+                <div class="card c2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            HRIS Technology
+                        </h2>
+                        <p class="card-body">
+                            Make your employees smile and we'll help you streamline your HR processes!
+                        </p>
+                        <a href="../html/services.html#hris" class="card-button">Learn More</a>
+                    </div>
+                </div>
+    
+                <div class="card c3 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            Payroll Outsourcing
+                        </h2>
+                        <p class="card-body">
+                            At MAYES.PH you don't need to pay extra to outsource your payroll; we can even give it to you for free!
+                        </p>
+                        <a href="../html/services.html#hris" class="card-button">Learn More</a>
+                    </div>=
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="gigatron" id="gigatron">
+        <div class="gigatron-row row">
+            <div class="gigatron-desc col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <span class="gigatron-text">
+                    Make all your employees <span class="yellow smile">smile</span> with your affordable benefits solutions powered by our <span class="hris">HRIS</span> technology.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="lines">
+        <hr class="bluehr">
+        <hr class="yellowhr">
+    </section>
+
+    <section class="services" id="services">
+        <div class="row services-row" id="services-row">
+            <div class="services-label col-12" id="services-label">
+                <span class="services-label_text">
+                    Our Offerings & Services
+                </span>
+            </div>
+
+            <div class="card-container row">
+                <div class="services-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="services-item">
+                    <div class="services-cont">
+                        <img src="../assets/services1.png" class="services-img">
+                    </div>
+                    <span class="services-title">
+                        We offer you a wide array of affordable MAYES employee benefit solutions
+                    </span>
+                    <span class="services-desc">
+                        Let MAYES free you from the burden of motivating and retaining your employees with our 
+                        host of accessible, affordable and innovative MAYES employees benefits solutions.
+                    </span>
+                    <button class="services-btn">
+                        Learn More
+                    </button>
+                </div>
+    
+                <div class="services-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="services-item">
+                    <div class="services-cont">
+                        <img src="../assets/services2.png" class="services-img">
+                    </div>
+                    <span class="services-title">
+                        We deliver these MAYES enefits solutions through our HRIS Technology.
+                    </span>
+                    <span class="services-desc">
+                        Looking to automate your HR processes? No need to purchase a separate HRIS! You can now
+                        have this HR technology in your company bundled with our MAYES benefits solutions.
+                    </span>
+                    <button class="services-btn">
+                        Learn More
+                    </button>
+                </div>
+    
+                <div class="services-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="services-item">
+                    <div class="services-cont">
+                        <img src="../assets/services3.png" class="services-img">
+                    </div>
+                    <span class="services-title">
+                        We offer free payroll outsourcing bundled with a MAYES benefits solution.
+                    </span>
+                    <span class="services-desc">
+                        We go the extra mile! Apart from the HRIS technology, we can even process and manage your payroll for 
+                        free! This offering comes with specific MAYES employees benefits packages.
+                    </span>
+                    <button class="services-btn">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="lines">
+        <hr class="bluehr">
+        <hr class="yellowhr">
+    </section> -->
+
+    <section class="healthcare" id="healthcare">
+        <div class="row healthcare-row">
+            <div class="col-12 healthcare-label">
+                Our Valued Partners
+            </div>
+
+            <div class="col-12 hc-cont">
+                <div class="row hc-row">
+                    <div class="hc-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <img src="../assets/maxicare.png">
+                    </div>
+
+                    <div class="hc-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <img src="../assets/valuecare.png">
+                    </div>
+
+                    <div class="hc-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <img src="../assets/hmi.png">
+                    </div>
+
+                    <div class="hc-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <img src="../assets/philcare.png">
+                    </div>
+
+                    <div class="hc-item col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <img src="../assets/sns.png" style="width: 20vmax;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-row row">
+            <div class="contact-label col-12 contact-hr">
+                <span class="contact-title">
+                    Contact Us!
+                </span>
+
+                <span class="contact-title">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fas fa-phone"></i>
+                </span>
+            </div>
+
+            <div class="contact-field col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="field-title">
+                    
+                </div>
+
+                <div class="field-inputs">
+                    <form action="https://formsubmit.co/354a8e248f4cfee6d7113997ecdd82d7" method="POST">
+                        <input type="hidden" name="_subject" value="New Mayes.ph submission">
+                        <input type="hidden" name="_next" value="https://mayes-ph.com/html/home.html">
+                        <input type="text" name="name" class="input" placeholder="Name" required>
+                        <input type="email" name="email" class="input" placeholder="E-mail Address" type="email" required>
+                        <textarea class="textarea" name="message" placeholder="Message" required></textarea>
+                        <button class="button">SEND</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-info col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="info-title">
+                    Better yet, see us in person!
+                </div>
+
+                <div class="info-desc">
+                    Primeland Building, Madrigal Business Park, Alabang, Muntinlupa City
+                </div>
+
+                <div class="info-title">
+                    Shoot us a call!
+                </div>
+
+                <div class="info-desc">
+                   Mobile No.: +639178541388 / +639178457840
+                </div>
+
+                <div class="info-title">
+                    Operating hours.
+                </div>
+
+                <div class="info-desc">
+                    Open Monday to Friday, 9:00 am - 5:00 pm.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="trademark">
+        <span>Made by: <a href="https://vincevill599.github.io/vincevillegas.github.io/">V_V</a></span>
+    </section> -->
+</body>
+</html>
